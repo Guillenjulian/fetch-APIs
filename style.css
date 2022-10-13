@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Roboto;
+  font-size: 17px;
+  margin: 0;
+}
+.header {
+  background-color: #fff159;
+  height: 68px;
+  width: 100%;
+  padding: 12px 0;
+}
+.conteiner-header {
+  max-width: 510px;
+  margin: 0 auto;
+}
+.form-search {
+  display: flex;
+}
+
+.search-text {
+  flex-grow: 1;
+  margin-right: 14px;
+  font-family: "roboto";
+  font-size: 19px;
+}
+.search {
+  width: 122px;
+  height: 44px;
+  border-radius: 4px;
+  font-family: "roboto";
+  font-size: 19px;
+}
+.Conteiner-result {
+  margin: 0 auto;
+
+  max-width: 510px;
+  overflow: auto;
+}
+/* .results {
+  font-size: 19px;
+  font-weight: 700;
+} */
+.results-iten {
+  border: solid;
+  border-radius: 4px;
+  display: flex;
+  padding: 13px;
+  margin-top: 20px;
+}
+.conteiner-result-img {
+  display: flex;
+  align-items: center;
+}
+.results-iten-img {
+  width: 128px;
+  max-height: 128px;
+}
+.resul-iten-conten {
+  padding: 0 13px;
+  flex-grow: 1;
+}
+.resul-iten-titel {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+.resul-iten-conditional {
+  margin-top: 4px;
+  font-size: small;
+}
+.resul-iten-sell-count {
+  margin-top: 100px;
+  font-size: small;
+}
+.preice {
+  font-weight: bold;
+  font-size: 28px;
+  color: #5791a4;
+}

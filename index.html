@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en/es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script async src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="conteiner-header">
+        <form class="form-search">
+          <input
+            type="text"
+            name="search"
+            placeholder="Search"
+            class="search-text"
+          />
+          <button class="search">search</button>
+        </form>
+      </div>
+    </header>
+    <div class="Conteiner-result">
+      <h3 class="results">
+        Resultados : <span class="resultados-cant">0</span>
+      </h3>
+      <template id="results-iten-template">
+        <div class="results-iten">
+          <div class="conteiner-result-img">
+            <img src="" class="results-iten-img" />
+          </div>
+          <div class="resul-iten-conten">
+            <h4 class="resul-iten-title">title</h4>
+            <p class="resul-iten-conditional">subtitle</p>
+
+            <p class="resul-iten-sell-count">
+              vendidos :<span class="resul-iten-conten-number"></span>
+            </p>
+          </div>
+          <div class="preice">800</div>
+        </div>
+      </template>
+    </div>
+  </body>
+</html>
